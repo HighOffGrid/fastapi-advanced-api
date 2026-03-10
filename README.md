@@ -2,6 +2,7 @@
 FastAPI + Docker + Postgresql avancado
 
 pip install -r requirements.txt
+
 uvicorn main:app --reload
 
 ## Docs da API
