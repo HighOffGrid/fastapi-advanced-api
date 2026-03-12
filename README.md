@@ -1,8 +1,14 @@
 # FastAPI-Docker-Postgresql
+
 FastAPI + Docker + Postgresql avancado
 
-pip install -r requirements.txt
+# FastAPI Projects
 
+Projeto simples usando FastAPI para estudo.
+
+## Rodar projeto
+
+pip install -r requirements.txt
 uvicorn main:app --reload
 
 ## Docs da API
