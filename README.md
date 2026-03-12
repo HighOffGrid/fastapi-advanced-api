@@ -23,6 +23,17 @@ Funcionalidades
 	•	Estrutura básica para aplicações backend
 
 
+## Arquitetura
+
+
+Client
+   |
+FastAPI API
+   |
+PostgreSQL
+
+
+
 ## Rodando o projeto
 
 
