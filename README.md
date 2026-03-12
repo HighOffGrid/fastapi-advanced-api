@@ -36,40 +36,6 @@ SQLAlchemy ORM
 PostgreSQL Database
 
 
-## Estrutura do Projeto
-
-
-project/
-│
-├── app/
-│   ├── models/        # Modelos do banco (SQLAlchemy)
-│   ├── schemas/       # Validação de dados (Pydantic)
-│   ├── routers/       # Rotas da API
-│   └── database/      # Conexão com PostgreSQL
-│
-├── main.py            # Inicialização da aplicação FastAPI
-├── Dockerfile         # Configuração da imagem Docker
-├── docker-compose.yml # Orquestração dos containers
-└── requirements.txt   # Dependências do projeto
-
-
-## Arquitetura com Docker
-
-
-Client
-   │
-   ▼
-┌──────────────────────┐
-│   Docker Container   │
-│      FastAPI App     │
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│  Docker Container    │
-│     PostgreSQL       │
-└──────────────────────┘
-
 
 ## Rodando o projeto
 
