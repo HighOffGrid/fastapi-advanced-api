@@ -1,19 +1,59 @@
-# FastAPI-Docker-Postgresql
+:::
 
-FastAPI + Docker + Postgresql avancado
 
-# FastAPI Projects
+## FastAPI Docker PostgreSQL API
 
-Projeto simples usando FastAPI para estudo.
 
-## Rodar projeto
+API backend desenvolvida com FastAPI, utilizando PostgreSQL como banco de dados e Docker para containerização da aplicação.
 
+Projeto criado para estudo de deploy e execução de APIs utilizando containers.
+
+Tecnologias
+	•	FastAPI
+	•	PostgreSQL
+	•	Docker
+	•	SQLAlchemy
+	•	Pydantic
+	•	Uvicorn
+
+Funcionalidades
+	•	API REST com FastAPI
+	•	Integração com PostgreSQL
+	•	Containerização com Docker
+	•	Estrutura básica para aplicações backend
+
+
+## Rodando o projeto
+
+
+Clone o repositório:
+git clone https://github.com/seuuser/fastapi-docker-postgresql
+
+instale as dependências:
 pip install -r requirements.txt
+
+Execute a API:
 uvicorn main:app --reload
 
-## Docs da API
 
-Após rodar o projeto:
+## Rodando com Docker
 
+
+docker compose up --build
+
+
+## Documentação da API
+
+
+Swagger UI:
 http://127.0.0.1:8000/docs
-http://127.0.0.1:8000/redocs
+
+ReDoc:
+http://127.0.0.1:8000/redoc
+
+
+## Objetivo
+
+
+Este projeto foi desenvolvido para prática de desenvolvimento backend com FastAPI e uso de containers com Docker.
+:::
