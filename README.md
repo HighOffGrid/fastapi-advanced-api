@@ -1,5 +1,3 @@
-:::writing{variant=“standard” id=“arch1”}
-
 
 # FastAPI Docker PostgreSQL API
 
@@ -67,5 +65,3 @@ http://127.0.0.1:8000/redoc
 
 
 Este projeto foi desenvolvido para prática de desenvolvimento backend com FastAPI e uso de containers com Docker.
-
-:::
