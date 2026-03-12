@@ -50,7 +50,7 @@ Execute a API:
 uvicorn main:app --reload
 
 
-## Rodando com Docker:
+## Rodando com Docker
 
 
 docker compose up --build
