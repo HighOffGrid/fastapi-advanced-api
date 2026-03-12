@@ -6,7 +6,7 @@ API backend desenvolvida com FastAPI, utilizando PostgreSQL como banco de dados 
 
 Projeto criado para estudo de deploy e execução de APIs utilizando containers.
 
-Tecnologias
+Tecnologias:
 	•	FastAPI
 	•	PostgreSQL
 	•	Docker
@@ -14,7 +14,7 @@ Tecnologias
 	•	Pydantic
 	•	Uvicorn
 
-Funcionalidades
+Funcionalidades:
 	•	API REST com FastAPI
 	•	Integração com PostgreSQL
 	•	Containerização com Docker
@@ -50,7 +50,7 @@ Execute a API:
 uvicorn main:app --reload
 
 
-## Rodando com Docker
+## Rodando com Docker:
 
 
 docker compose up --build
