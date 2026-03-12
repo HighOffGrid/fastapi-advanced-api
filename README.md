@@ -48,11 +48,8 @@ project/
 │   └── database/      # Conexão com PostgreSQL
 │
 ├── main.py            # Inicialização da aplicação FastAPI
-│
 ├── Dockerfile         # Configuração da imagem Docker
-│
 ├── docker-compose.yml # Orquestração dos containers
-│
 └── requirements.txt   # Dependências do projeto
 
 
@@ -80,7 +77,7 @@ Client
 Clone o repositório:
 git clone https://github.com/seuuser/fastapi-docker-postgresql
 
-instale as dependências:
+Instale as dependências:
 pip install -r requirements.txt
 
 Execute a API:
