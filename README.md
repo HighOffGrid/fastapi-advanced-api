@@ -53,7 +53,7 @@ Este projeto foi desenvolvido para prática de desenvolvimento backend com FastA
 Clone o repositório:
 
 ```bash
-git clone https://github.com/seuuser/fastapi-docker-postgresql
+git clone https://github.com/HighOffGrid/fastapi-advanced-api
 cd FastAPI avançado
 
 ---
