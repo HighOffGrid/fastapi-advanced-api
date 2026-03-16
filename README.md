@@ -54,7 +54,7 @@ Clone o repositório:
 
 ```bash
 git clone https://github.com/seuuser/fastapi-docker-postgresql
-cd fastapi-basic-api
+cd FastAPI avançado
 
 ---
 
